@@ -1,0 +1,47 @@
+# Private documents and review material
+Dokument.rtf
+*.rtf
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Passwords, credentials and local environment files
+.env
+.env.*
+*password*
+*passwd*
+*credential*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Backups, archives and temporary files
+backup/
+backups/
+*.bak
+*.backup
+*.old
+*.tmp
+*.temp
+*.zip
+*.7z
+*~
+
+# Local tool metadata
+.agents/
+.codex/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

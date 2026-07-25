@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Portrettplassholder for Marta</title>
+  <desc id="desc">Midlertidig illustrasjon av Marta i et rolig fjellandskap</desc>
+  <rect width="800" height="1000" fill="#e9f3f7"/>
+  <circle cx="640" cy="170" r="92" fill="#75a9bf" opacity=".55"/>
+  <path d="M0 600 210 300l138 185 166-245 286 360v400H0Z" fill="#75a9bf"/>
+  <path d="M0 720 270 455l170 205 145-145 215 205v280H0Z" fill="#397998"/>
+  <circle cx="405" cy="475" r="94" fill="#fbfdfe"/>
+  <path d="M297 475c-4-92 42-146 110-146 73 0 116 59 105 157-20-59-51-88-96-98-29 39-68 68-119 76Z" fill="#1d2a32"/>
+  <path d="M235 820c22-154 82-230 174-230 95 0 154 76 174 230Z" fill="#24566f"/>
+  <rect x="120" y="850" width="560" height="94" rx="47" fill="#fbfdfe" opacity=".94"/>
+  <text x="400" y="889" fill="#24566f" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">Midlertidig Marta-bilde</text>
+  <text x="400" y="922" fill="#5c6c75" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Erstatt med vertikalt fjellfoto før lansering</text>
+</svg>
