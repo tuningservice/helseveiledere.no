@@ -10,8 +10,8 @@ En enkel, responsiv rekrutteringsside for Marta Opland, sertifisert helseveilede
 ├── personvern.html
 ├── css/style.css
 ├── js/main.js
-├── img/hero-placeholder.svg
-├── img/marta-placeholder.svg
+├── img/hero.png
+├── img/marta.png
 ├── CNAME
 ├── robots.txt
 ├── sitemap.xml
@@ -38,11 +38,11 @@ python -m http.server 8000
 5. Bekreft at domenet i `CNAME` er `helseveiledere.no`, og konfigurer DNS hos domeneleverandøren etter GitHubs anvisninger.
 6. Aktiver **Enforce HTTPS** når sertifikatet er klart.
 
-## Bytte bilder og profilfarger
+## Bilder og profilfarger
 
-- **Hero-bilde:** Erstatt `img/hero-placeholder.svg` med det godkjente høyoppløselige landskapsbildet av én person som hjelper en annen på fjelltur. Behold samme filnavn for å unngå andre kodeendringer.
-- **Marta-bilde:** Erstatt `img/marta-placeholder.svg` med det godkjente høyoppløselige, vertikale fjellbildet av Marta. Behold samme filnavn for å unngå andre kodeendringer.
-- **Blå profil:** Juster de sentrale CSS-variablene `--primary`, `--primary-dark`, `--primary-light`, `--accent`, `--background`, `--surface`, `--text`, `--muted` og `--border` øverst i `css/style.css` dersom fargene skal finjusteres.
+- **Hero-bilde:** `img/hero.png`
+- **Marta-bilde:** `img/marta.png`
+- **Blå profil:** Juster de sentrale CSS-variablene `--primary`, `--accent`, `--primary-dark`, `--primary-light`, `--background`, `--surface`, `--text`, `--muted`, `--border` og `--white` øverst i `css/style.css` dersom fargene skal finjusteres.
 
 ## Kontaktskjemaet
 
@@ -60,7 +60,6 @@ Hovedbudskapet er «Med fokus på helhetlig helse og bærekraftige endringer». 
 
 ## Før lansering
 
-- [ ] Erstatt begge bildeplassholderne med de leverte høyoppløselige bildene.
 - [ ] Test en komplett Formspree-innsending uten reelle eller sensitive helseopplysninger.
 - [ ] Test e-postlevering til `marta@helseveiledere.no`.
 - [ ] Korrekturles alt innhold.
