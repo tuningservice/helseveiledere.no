@@ -54,14 +54,14 @@ action="https://formspree.io/f/xeeyprpa"
 
 Skjemaet inneholder navn, e-post, valgfritt telefonnummer, det valgfrie feltet «Eventuelle spørsmål eller aktuelle opplysninger», samtykke og emnefeltet «Ny forespørsel fra helseveiledere.no». Formspree viser en tydelig bekreftelse eller feilmelding etter innsending. Skjemaet lagrer eller logger ikke innholdet lokalt.
 
-## Innhold og kampanje
+## Innhold
 
-Hovedbudskapet er «Med fokus på helhetlig helse og bærekraftige endringer». Augustkampanjen betyr at all helseveiledning som leveres i kalendermåneden august er gratis, uavhengig av når klienten starter. De fire ordinære månedsprisene står fortsatt synlig på siden.
+Hovedbudskapet er «Med fokus på helhetlig helse og bærekraftige endringer». Tilbudet er «Gratis kartleggingssamtale på 45 minutter».
 
 ## Før lansering
 
 - [ ] Test en komplett Formspree-innsending uten reelle eller sensitive helseopplysninger.
-- [ ] Test e-postlevering til `marta@helseveiledere.no`.
+- [ ] Test e-postlevering til `marta.opland@abel.no`.
 - [ ] Korrekturles alt innhold.
 - [ ] Test nettstedet på mobil, nettbrett og desktop.
 - [ ] Kontroller alle lenker og filbaner.
