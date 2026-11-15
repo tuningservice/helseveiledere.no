@@ -115,9 +115,9 @@ address { font-style: normal; }
 .hero-actions { display: flex; align-items: flex-start; flex-direction: column; gap: var(--space-2); }
 .trust-list { display: flex; margin: var(--space-5) 0 0; padding: 0; color: var(--muted); font-size: 0.91rem; list-style: none; flex-wrap: wrap; gap: 0.6rem 1.25rem; }
 .trust-list li::before { content: "✓"; margin-right: 0.4rem; color: var(--success); font-weight: 800; }
-.hero-visual { width: 50%; margin-inline: auto; }
-.hero-image-frame { overflow: hidden; aspect-ratio: 5 / 7; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--primary-light); box-shadow: var(--shadow-md); }
-.hero-image-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.hero-visual { width: 100%; margin-inline: auto; }
+.hero-image-frame { overflow: hidden; aspect-ratio: 4 / 3; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--primary-light); box-shadow: var(--shadow-md); }
+.hero-image-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; }
 
 .section-heading { max-width: 48rem; margin-bottom: clamp(2.75rem, 5vw, 4rem); }
 .section-heading > p:last-child { margin-bottom: 0; color: var(--muted); font-size: 1.06rem; }
@@ -141,8 +141,9 @@ address { font-style: normal; }
 .system-note::before { content: "ⓘ"; margin-right: 0.35rem; color: var(--primary); }
 
 .about-grid { display: grid; gap: clamp(3rem, 7vw, 6rem); align-items: center; }
-.about-visual { overflow: hidden; width: 100%; min-height: 26rem; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--primary-light); box-shadow: var(--shadow-md); }
-.about-visual img { width: 100%; height: 100%; min-height: 26rem; aspect-ratio: 5 / 6; object-fit: cover; object-position: 62% center; }
+.about-visual { position: relative; overflow: hidden; width: 100%; min-height: 26rem; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--primary-light); box-shadow: var(--shadow-md); }
+.about-mountain { width: 100%; height: 100%; min-height: 26rem; aspect-ratio: 5 / 6; object-fit: cover; object-position: 62% center; }
+.about-portrait { position: absolute; right: 3%; bottom: 3%; width: 46%; height: auto; min-height: 0; aspect-ratio: 1; border: 2px solid var(--primary); border-radius: 50%; object-fit: cover; object-position: 50% 25%; }
 .about-copy > p:not(.eyebrow) { color: var(--muted); }
 .quality-list { display: flex; margin: var(--space-5) 0 0; padding: 0; list-style: none; flex-wrap: wrap; gap: 0.65rem; }
 .quality-list li { padding: 0.5rem 0.82rem; border: 1px solid var(--border); border-radius: 999px; color: var(--primary-dark); background: linear-gradient(135deg, var(--white), var(--surface)); font-size: 0.86rem; font-weight: 720; letter-spacing: 0.01em; box-shadow: 0 4px 12px rgba(16, 35, 58, 0.045); }
